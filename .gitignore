@@ -1,0 +1,22 @@
+# macOS / Windows metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor settings and temporary outputs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.log
+node_modules/
+__pycache__/
